@@ -1,0 +1,106 @@
+# ========== AgriVision .gitignore ==========
+
+# ========== Environment ==========
+.env
+.env.local
+.env.*.local
+venv/
+env/
+.venv/
+
+# ========== Python ==========
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ========== Jupyter Notebooks ==========
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ========== Data & Models (Large Files) ==========
+data/
+*.h5
+*.hdf5
+*.tflite
+*.onnx
+*.pkl
+*.pickle
+*.npy
+*.npz
+
+# ========== IDE ==========
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+
+# ========== OS ==========
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ========== Logs ==========
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+error_log.txt
+test_results.txt
+
+# ========== Testing ==========
+.coverage
+htmlcov/
+.pytest_cache/
+.tox/
+.nox/
+
+# ========== Build ==========
+node_modules/
+.next/
+out/
+*.egg-info/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+*.tsbuildinfo
+
+# ========== Streamlit ==========
+.streamlit/secrets.toml
+
+# ========== Model Training ==========
+checkpoints/
+tensorboard_logs/
+wandb/
+
+# ========== Temporary Files ==========
+tmp/
+temp/
+*.tmp
+*.temp

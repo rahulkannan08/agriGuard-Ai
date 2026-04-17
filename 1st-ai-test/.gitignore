@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Env
+.env
+.env.*
+!.env.example
+
+# Dependency/build output
+node_modules/
+dist/
+.next/
+.vite/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Artifacts and reports
+/colab/
+/combined_data/
+/artifacts/
+/reports/
+*.pth
+*.pt
+*.onnx
+*.h5
+*.hdf5
+*.npy
+*.npz
+training.log
+training.err
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

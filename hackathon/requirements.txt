@@ -1,0 +1,51 @@
+# AgriVision - Python Dependencies
+# Matrix Fusion 4.0 Hackathon
+
+# ========== Core Framework ==========
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+streamlit==1.31.0
+
+# ========== ML & Deep Learning ==========
+tensorflow==2.15.0
+keras==2.15.0
+numpy==1.26.3
+pillow==10.2.0
+opencv-python==4.9.0.80
+
+# ========== Data Science ==========
+pandas==2.2.0
+scikit-learn==1.4.0
+matplotlib==3.8.2
+seaborn==0.13.2
+
+# ========== Image Processing ==========
+albumentations==1.3.1
+
+# ========== LLM Integration (NVIDIA NIM API) ==========
+# groq==0.4.2               # Optional fallback
+
+# ========== API & Validation ==========
+pydantic==2.5.3
+pydantic-settings==2.1.0
+python-multipart==0.0.6
+python-dotenv==1.0.0
+
+# ========== HTTP & Networking ==========
+requests==2.31.0
+httpx==0.26.0
+
+# ========== Utilities ==========
+python-jose[cryptography]==3.3.0
+exifread==3.0.0
+geopy==2.4.1
+
+# ========== Development ==========
+pytest==8.0.0
+pytest-asyncio==0.23.3
+black==24.1.1
+isort==5.13.2
+
+# ========== Jupyter (for training) ==========
+jupyter==1.0.0
+ipykernel==6.29.0

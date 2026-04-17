@@ -1,0 +1,79 @@
+# Secrets and local env
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.venv/
+venv/
+env/
+
+# Node
+node_modules/
+dist/
+.vite/
+.next/
+out/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Logs and temp files
+*.log
+*.err
+*.out
+error_log.txt
+test_results.txt
+tmp/
+temp/
+test.jpg
+
+# Archives and bundled exports
+*.zip
+*.tar
+*.gz
+*.7z
+*.rar
+
+# OS and editor files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Notebook and local cache files
+.ipynb_checkpoints/
+.mypy_cache/
+.ruff_cache/
+.coverage
+*.tsbuildinfo
+
+# Local machine-specific config files
+*.local
+*.local.json
+
+# Large/generated datasets and model artifacts
+colab/
+1st-ai-test/colab/
+1st-ai-test/combined_data/
+1st-ai-test/artifacts/
+1st-ai-test/reports/
+data/combined_data/
+artifacts/
+reports/
+*.pth
+*.pt
+*.onnx
+*.h5
+*.hdf5
+*.npy
+*.npz

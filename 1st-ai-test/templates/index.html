@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AgriVisionAI</title>
+  <link rel="stylesheet" href="/static/styles.css" />
+</head>
+<body>
+  <main class="page">
+    <section class="card">
+      <h1>AgriVisionAI Crop Intelligence</h1>
+      <p class="subtitle">Upload a leaf image to predict crop, disease status, and recommendations.</p>
+
+      <form id="predict-form">
+        <label for="image">Leaf image</label>
+        <input id="image" name="image" type="file" accept="image/*" required />
+
+        <div class="grid">
+          <div>
+            <label for="location">Location</label>
+            <input id="location" name="location" type="text" placeholder="Mangalore, Karnataka" />
+          </div>
+          <div>
+            <label for="time_context">Time Context</label>
+            <input id="time_context" name="time_context" type="text" placeholder="Early Morning" />
+          </div>
+        </div>
+
+        <label for="weather">Weather</label>
+        <input id="weather" name="weather" type="text" placeholder="Humid, light rain expected" />
+
+        <button id="submit-btn" type="submit">Analyze Image</button>
+      </form>
+
+      <section id="result" class="result hidden">
+        <h2>Prediction Result</h2>
+        <div id="result-body"></div>
+      </section>
+
+      <section id="error" class="error hidden"></section>
+    </section>
+  </main>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>
